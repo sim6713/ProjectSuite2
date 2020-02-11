@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="There is (are) 1 running instance(s) of &quot;E:\Sportmaster\ProjectSuite2\TestEnvironment(TD32).exe&quot;. New instances will not be launched."/>
+							</Node>
+						</Node>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="ProjectTestItem1"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzAEUANAA0AEUAQgA0ADkALQAxADEAMQBGAC0ANAAwADMANgAtAEEAMQBGAEQALQA0ADMAQQBCAEEAQwBBADAAMAA5AEQAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="duration" type="I" value="6461"/>
+						<Prp name="starttime" type="D" value="43872.6221694213"/>
+						<Prp name="status" type="I" value="1"/>
+						<Prp name="durationwithoutchildren" type="I" value="6461"/>
+					</Node>
+				</Node>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TestKeys2"/>
+				<Prp name="warningtests" type="I" value="1"/>
+				<Prp name="starttime" type="D" value="43872.6221694213"/>
+				<Prp name="duration" type="I" value="6461"/>
+				<Prp name="failedtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="43872.6221692014"/>
+		<Prp name="stop" type="D" value="43872.622245"/>
+		<Prp name="warningtests" type="I" value="1"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="key" type="S" value="{EB687E92-F409-4605-9929-CA6F9C369032}"/>
+		<Prp name="testname" type="S" value="TestKeys2"/>
+		<Prp name="host" type="S" value="MANAGER99"/>
+		<Prp name="executionstatus" type="I" value="1"/>
+		<Prp name="name" type="S" value="ProjectSuite2"/>
+		<Prp name="user" type="S" value="a.simukov"/>
+	</Node>
+</Nodes>

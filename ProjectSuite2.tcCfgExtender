@@ -21,7 +21,7 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{64ED7001-FEE5-4F6A-842A-59978EAE3E13}"/>
+				<Prp name="activity" type="S" value="{F65EC1C6-DEC5-4ACD-9E89-2C1BDAB49FFB}"/>
 			</Node>
 			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
@@ -63,7 +63,9 @@
 						<Node name="testedapps"/>
 					</Node>
 				</Node>
-				<Node name="projectsuite2 logs"/>
+				<Node name="projectsuite2 logs">
+					<Node name="testkeys2 logs"/>
+				</Node>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{8EBE6EB3-803D-4913-AD7A-D71552123A67}"/>

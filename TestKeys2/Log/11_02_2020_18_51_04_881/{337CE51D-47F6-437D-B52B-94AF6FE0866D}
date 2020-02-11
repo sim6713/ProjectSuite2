@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6605823032"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7855832755"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6605791782"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7855801273"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="-8"/>
+					<Prp name="line #" type="I" value="90"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6605205903"/>
+					<Prp name="object left" type="I" value="-8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="52"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1928"/>
+					<Prp name="click point y" type="I" value="92"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1048"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7855218866"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (60, 100) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="90"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="line #" type="I" value="80"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6605192824"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="874"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="663"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7855198958"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.TestTD32.FMain&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="80"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The 'FMain' window was maximized."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6605758681"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7855768518"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6607240741"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.785725"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 30">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="41"/>
+					<Prp name="image file name" type="S" value="visImage27.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6607891551"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7857905556"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[NumPlus]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 41">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="51"/>
+					<Prp name="image file name" type="S" value="visImage38.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6608539583"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7858558218"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'BS' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="41"/>
+			<Prp name="line no" type="I" value="51"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 36">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="image file name" type="S" value="visImage33.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6608108218"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7858116204"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 39">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="49"/>
+					<Prp name="image file name" type="S" value="visImage36.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6608270833"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7858280093"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 37">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="image file name" type="S" value="visImage34.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6608122106"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.785813206"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 34">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="image file name" type="S" value="visImage31.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6608076736"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7858085069"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6605774306"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7855784375"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6605582986"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="60"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="425"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7855599769"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The grid cell (1, 'id') was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 42">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="52"/>
+					<Prp name="image file name" type="S" value="visImage39.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6608680903"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7858693287"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="42"/>
+			<Prp name="line no" type="I" value="52"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 31">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="image file name" type="S" value="visImage28.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6608030093"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7858040162"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6606497338"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7856506366"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[NumMinus]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="line no" type="I" value="24"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 43">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7859398495"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="The close command was sent to the window with the 'Форма с TreeList' caption. But the application is still running after the timeout has elapsed (0 ms).&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="43"/>
+			<Prp name="line no" type="I" value="100"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Process &quot;TestEnvironment(TD32)&quot; stayed in the system after the close command was used."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 25">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6607286574"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7857296759"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6605806944"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7855817245"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 29">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="40"/>
+					<Prp name="image file name" type="S" value="visImage26.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6607752662"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="60"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="425"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7857768287"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="40"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The grid cell (1, 'id') was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6607178472"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.785718669"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6605722685"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7855735301"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7855388657"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="4"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="line no" type="I" value="91"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="OpenFormTreeList"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 21">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6607226273"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7857234954"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6607256019"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7857265972"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7854800926"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="The process ID is 9276."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="64"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The application &quot;E:\Sportmaster\ProjectSuite2\TestEnvironment(TD32).exe&quot; started."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{F65EC1C6-DEC5-4ACD-9E89-2C1BDAB49FFB}"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6607156713"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7857170833"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 27">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="image file name" type="S" value="visImage24.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6607670602"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7857688889"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'AAA' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 38">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="48"/>
+					<Prp name="image file name" type="S" value="visImage35.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6608137847"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7858147685"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[NumPlus]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="line no" type="I" value="48"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6607192361"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7857202083"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6605742708"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7855751273"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 32">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="image file name" type="S" value="visImage29.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6608045833"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7858054861"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6607015625"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="60"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="714"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7857033102"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="line no" type="I" value="27"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The grid cell (3, 'id') was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6607271759"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7857280671"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 1">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7855012963"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="4"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="75"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="MaximizeApp"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 26">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="image file name" type="S" value="visImage23.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.660765162"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7857662847"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Right]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 28">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="image file name" type="S" value="visImage25.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.660769456"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.785770463"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 40">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="50"/>
+					<Prp name="image file name" type="S" value="visImage37.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6608404398"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7858415278"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Right]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6607209606"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7857220718"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6606357523"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="60"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="425"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7856375116"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The grid cell (1, 'id') was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 35">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="image file name" type="S" value="visImage32.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6608090856"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7858100694"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6605840278"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7855850347"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[NumMinus]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 33">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="image file name" type="S" value="visImage30.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43872.6608060301"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43872.7858070833"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Down]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

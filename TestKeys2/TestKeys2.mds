@@ -8,7 +8,12 @@
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{0B7FC5CC-E586-480E-BD8B-94A5EADF9E00}" version="14">
-		<children />
+		<children>
+			<testItem name="ProjectTestItem1" key="{B59B850C-7B99-4715-8A9F-301EA37601CA}" group="False" enabled="True" testMoniker="{F65EC1C6-DEC5-4ACD-9E89-2C1BDAB49FFB}Main" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{70A1409B-77AD-488A-B190-45BEC8A7EDE0}">
 		<data Version="3" />

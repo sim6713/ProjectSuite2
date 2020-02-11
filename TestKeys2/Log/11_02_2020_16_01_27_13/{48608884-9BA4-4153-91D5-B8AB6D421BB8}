@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="stack"/>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="60"/>
+					<Prp name="datetime" type="D" value="43872.5427756944"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="425"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="line #" type="I" value="16"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="43872.6677773495"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain.MDIClient.FTreeList.tlTest&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;FTreeList&quot;).VCLObject(&quot;tlTest&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The grid cell (1, 'id') was clicked with the left mouse button."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="16"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="43872.6678134606"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="The close command was sent to the window with the 'Форма с TreeList' caption. But the application is still running after the timeout has elapsed (0 ms).&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Process &quot;TestEnvironment(TD32)&quot; stayed in the system after the close command was used."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="67"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="43872.6677334259"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="type" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="OpenFormTreeList"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="58"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="43872.6676992824"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="type" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="MaximizeApp"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="42"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="52"/>
+					<Prp name="datetime" type="D" value="43872.5427182639"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1928"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain"/>
+					<Prp name="object left" type="I" value="-8"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="92"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="1048"/>
+					<Prp name="object top" type="I" value="-8"/>
+					<Prp name="line #" type="I" value="57"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="43872.6677196181"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (60, 100) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestTD32.FMain&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="57"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="43872.5427167477"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="874"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object name" type="S" value="Aliases.TestTD32.FMain"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="663"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="line #" type="I" value="47"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="43872.6677174074"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.TestTD32.FMain&#xA;(Sys.Process(&quot;TestEnvironment(TD32)&quot;).VCLObject(&quot;FMain&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The 'FMain' window was maximized."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="47"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="43872.6676820486"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="The process ID is 10280."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The application &quot;E:\Sportmaster\ProjectSuite2\TestEnvironment(TD32).exe&quot; started."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="31"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{F65EC1C6-DEC5-4ACD-9E89-2C1BDAB49FFB}"/>
+		</Node>
+		<Node name="child data"/>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

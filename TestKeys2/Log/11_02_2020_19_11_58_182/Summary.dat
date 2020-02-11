@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings">
+							<Node name="warning1">
+								<Prp name="msg" type="S" value="Incorrect window - OpenFormTreeList"/>
+							</Node>
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="Incorrect window - MaximizeApp"/>
+							</Node>
+						</Node>
+						<Node name="errors">
+							<Node name="error30">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error18">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error6">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error43">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error41">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList&quot; does not exist."/>
+							</Node>
+							<Node name="error22">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error23">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error28">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error17">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error10">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error12">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error5">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The object &quot;Window(&quot;TFMain&quot;, &quot;FMain&quot;)&quot; does not exist."/>
+							</Node>
+							<Node name="error37">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error31">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error29">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error35">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error36">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error34">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error4">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error13">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error42">
+								<Prp name="msg" type="S" value="The object &quot;TestTD32&quot; does not exist."/>
+							</Node>
+							<Node name="error32">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error33">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error16">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The object &quot;FMain&quot; does not exist."/>
+							</Node>
+							<Node name="error8">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error27">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error21">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error19">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error20">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error15">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error40">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error14">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error9">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList&quot; does not exist."/>
+							</Node>
+							<Node name="error11">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error7">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error39">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error38">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error25">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error26">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+							<Node name="error24">
+								<Prp name="msg" type="S" value="The object &quot;FMain.FTreeList.tlTest&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="20263"/>
+						<Prp name="name" type="S" value="ProjectTestItem1"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFADkAMAA4ADQAMgBBADEALQA2ADAAOQAyAC0ANAA2ADAAOQAtAEIAMQAxAEIALQBEADYARgAyADcAMwBGAEUAQwBDADIARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="starttime" type="D" value="43872.7999794444"/>
+						<Prp name="durationwithoutchildren" type="I" value="20263"/>
+					</Node>
+				</Node>
+				<Prp name="duration" type="I" value="20263"/>
+				<Prp name="name" type="S" value="TestKeys2"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="43872.7999794444"/>
+			</Node>
+		</Node>
+		<Prp name="user" type="S" value="a.simukov"/>
+		<Prp name="testname" type="S" value="TestKeys2"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="host" type="S" value="MANAGER99"/>
+		<Prp name="starttime" type="D" value="43872.7999790972"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="stop" type="D" value="43872.8002146759"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="key" type="S" value="{0A524185-A204-464D-9923-4F2798EFEBA1}"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="name" type="S" value="ProjectSuite2"/>
+	</Node>
+</Nodes>
